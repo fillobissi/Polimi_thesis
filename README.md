@@ -29,6 +29,8 @@ The methodological framework includes:
 
 The provided codes are organized by analytical step, reflecting the workflow presented in Chapter 4 of the thesis (“Methodology”) and cited in several parts of the "Results" chapter 5 :
 
+### Codes:
+
 - **00_data_download.py**  
   Scripts for downloading and organizing the VHR-REA_IT NetCDF files, using the cdsapi Python library.
 
@@ -46,6 +48,20 @@ The provided codes are organized by analytical step, reflecting the workflow pre
 
 - **05_entire_period_analysis.py**  
   Scripts for extracting the average frequency of days exceeding HS thresholds across four decades and performing a detailed regression-based trend analysis. The script generates pixelwise decadal trends, smoothed spatial patterns, and comprehensive statistical summaries used to characterize the evolution of hazardous heat stress conditions (Chapter 5.5, Table 7, Figure 29). The procedure combines multi-decade exceedance aggregation with linear modeling to support an advanced understanding of temporal and spatial dynamics.
+
+### Outputs:
+
+- **heat_waves_events_81_23.csv**
+Complete list of all the HW and sub-HW (events shorter than 3 days) from 1981 to 2023. For all of them are reported: start date, end date, duration (in days), average daily intensity
+
+- **heatwave_evolution_2023_masked_Humidex.gif**
+Hourly evolution of Humidex (°C) across Lombardy during the July 2023 heatwave event. The GIF shows bounded with a blue edge those pixels exceeding the danger threshold. Moreover, the GIF highlights the days involved in HW.
+
+- **heatwave_evolution_2023_masked_Lethal Heat Stress Index.gif**
+Hourly evolution of Lethal Heat Stress Index (°C) across Lombardy during the July 2023 heatwave event. The GIF shows bounded with a blue edge those pixels exceeding the danger threshold. Moreover, the GIF highlights the days involved in HW.
+
+- **threshold_15_31.csv**
+Complete list of the thresholds for HW identification, with 15-day and 31-day windows. Measures reported are in Kelvin
 
 ---
 
