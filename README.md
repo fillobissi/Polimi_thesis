@@ -1,4 +1,4 @@
-# README — Codes repository for Master Thesis
+# CODES REPOSITORY FOR THE MASTER THESIS:
 **“Heat wave and heat stress space-time pattern analysis in Lombardy using climate reanalysis data”**  
 Author: *Filippo Bissi*  
 Advisor: *Prof. Maria Antonia Brovelli*  
